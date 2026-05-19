@@ -82,7 +82,8 @@
           <h3 id="formTitle">Send me a message</h3>
           <p id="formSubtitle">I'll get back to you within 24 hours</p>
           
-          <form id="contactForm" action="contact.php" method="POST">
+          <!-- Changed action to Formspree - Replace YOUR_FORM_ID with your actual form ID from formspree.io -->
+          <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
             <div class="form-group">
               <input type="text" name="name" id="nameInput" placeholder="Your Name" required>
             </div>
@@ -95,7 +96,7 @@
             <button type="submit" id="sendBtn">Send Message →</button>
           </form>
           <div class="form-note">
-            <small id="formNote"> Your message will be saved to database</small>
+            <small id="formNote">Your message will be sent to your email</small>
           </div>
         </div>
       </div>
