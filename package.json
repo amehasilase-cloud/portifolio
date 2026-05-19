@@ -1,0 +1,24 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website of Amehasilase Mekuanent - Computer Science student with multilingual support and multiple color themes",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "personal-website",
+    "computer-science",
+    "multilingual",
+    "responsive-design"
+  ],
+  "author": "Amehasilase Mekuanent (Janohoy)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amehasilase-cloud/portifolio.git"
+  },
+  "homepage": "https://amehasilase-cloud.github.io/portifolio/"
+}
