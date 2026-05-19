@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Amehasilase</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="logo">
+      <img src="profile.jpg" alt="Amehasilase" class="logo-img">
+      <div class="logo-info">
+        <h3>Amehasilase</h3>
+        <p>Janohoy</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="index.html" class="nav-link"><i class="fas fa-home"></i><span id="navHome">Home</span></a>
+      <a href="about.html" class="nav-link active"><i class="fas fa-user"></i><span id="navAbout">About</span></a>
+      <a href="project.html" class="nav-link"><i class="fas fa-briefcase"></i><span id="navWork">Work</span></a>
+      <a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i><span id="navContact">Contact</span></a>
+    </nav>
+    <div class="sidebar-bottom">
+      <select id="langSelect">
+        <option value="en">English</option>
+        <option value="am">አማርኛ</option>
+        <option value="om">Oromo</option>
+        <option value="so">Somali</option>
+        <option value="ti">ትግርኛ</option>
+      </select>
+      <select id="themeSelect">
+        <option value="dark">Dark</option>
+        <option value="light">Light</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+      </select>
+      <div class="social">
+        <a href="https://t.me/tmha3" target="_blank"><i class="fab fa-telegram"></i></a>
+        <a href="mailto:amehasilase3@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/amehasilase-cloud" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <section class="about-section">
+      <h1 id="aboutTitle">About Me</h1>
+      <div class="about-text-full">
+        <p id="aboutText1">Hi, I'm Amehasilase Mekuanent — but everyone calls me Janohoy. I'm a Computer Science student at Wachemo University in Hossana, Ethiopia.</p>
+        <p id="aboutText2">I love working with networking, building Java applications, and managing databases. It's what I do best.</p>
+        <p id="aboutText3">I've set up network systems across different campuses and built Java programs for airline bookings and student services.</p>
+      </div>
+      
+      <div class="timeline">
+        <h2 id="educationTitle">Education</h2>
+        <div class="timeline-item">
+          <h3>BSc in Computer Science</h3>
+          <span>2016 E.C. - Present | 3rd Year, 2nd Semester</span>
+          <p id="eduText">Started university in 2016 E.C. as a Freshman → 2nd year Computer Science → Now in my 3rd year, 2nd semester</p>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <h2 id="certificatesTitle">🎓 My Udacity Certificates (5 Million Coders Ethiopia)</h2>
+        <div class="timeline-item certificate-item">
+          <h3>📱 Android Developer Fundamentals</h3>
+          <span>April 15, 2026</span>
+          <p>ID: e/c1065f48-fe6d-11f0-a95d-73d8dcb88db2</p>
+          <a href="https://www.udacity.com/certificate/e/c1065f48-fe6d-11f0-a95d-73d8dcb88db2" target="_blank" class="cert-link">✓ Verify →</a>
+        </div>
+        <div class="timeline-item certificate-item">
+          <h3>🤖 Artificial Intelligence Fundamentals</h3>
+          <span>February 1, 2026</span>
+          <p>ID: e/5613cfe4-fbad-11f0-9576-e732f5d63b79</p>
+          <a href="https://www.udacity.com/certificate/e/5613cfe4-fbad-11f0-9576-e732f5d63b79" target="_blank" class="cert-link">✓ Verify →</a>
+        </div>
+        <div class="timeline-item certificate-item">
+          <h3>📊 Data Analysis Fundamentals</h3>
+          <span>April 25, 2026</span>
+          <p>ID: e/0e1f55bc-ff74-11f0-b604-0300962c7a07</p>
+          <a href="https://www.udacity.com/certificate/e/0e1f55bc-ff74-11f0-b604-0300962c7a07" target="_blank" class="cert-link">✓ Verify →</a>
+        </div>
+        <div class="timeline-item certificate-item">
+          <h3>💻 Programming Fundamentals</h3>
+          <span>January 30, 2026</span>
+          <p>ID: e/1875f7ba-fac3-11f0-b680-6b2e57b82406</p>
+          <a href="https://www.udacity.com/certificate/e/1875f7ba-fac3-11f0-b680-6b2e57b82406" target="_blank" class="cert-link">✓ Verify →</a>
+        </div>
+      </div>
+      
+      <div class="timeline">
+        <h2 id="experienceTitle">Things I've Built</h2>
+        <div class="timeline-item">
+          <h3 id="project1Title">✈️ Airplane Reservation System</h3>
+          <span>Java, OOP</span>
+          <p id="project1Desc">A complete booking system made with Java — includes a GUI and database</p>
+        </div>
+        <div class="timeline-item">
+          <h3 id="project2Title">🎓 Student Service Management</h3>
+          <span>Java, Database</span>
+          <p id="project2Desc">A system to manage student records and services using OOP</p>
+        </div>
+        <div class="timeline-item">
+          <h3 id="project3Title">🌐 Campus Network Setup</h3>
+          <span>Cisco, Networking</span>
+          <p id="project3Desc">Designed and installed a logical network for 1 campus with 2 branch connections</p>
+        </div>
+      </div>
+      
+      <div class="skills">
+        <h2 id="skillsTitle">What I Know</h2>
+        <div class="skill-bar"><span>Java (OOP)</span><div class="bar"><div style="width:85%"></div></div></div>
+        <div class="skill-bar"><span>Networking (Cisco)</span><div class="bar"><div style="width:80%"></div></div></div>
+        <div class="skill-bar"><span>Android Development</span><div class="bar"><div style="width:75%"></div></div></div>
+        <div class="skill-bar"><span>Data Analysis</span><div class="bar"><div style="width:72%"></div></div></div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

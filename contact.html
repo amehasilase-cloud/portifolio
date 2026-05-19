@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Amehasilase</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="logo">
+      <img src="profile.jpg" alt="Amehasilase" class="logo-img">
+      <div class="logo-info">
+        <h3>Amehasilase</h3>
+        <p>Janohoy</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="index.html" class="nav-link"><i class="fas fa-home"></i><span class="nav-text" id="navHome">Home</span></a>
+      <a href="about.html" class="nav-link"><i class="fas fa-user"></i><span class="nav-text" id="navAbout">About</span></a>
+      <a href="project.html" class="nav-link"><i class="fas fa-briefcase"></i><span class="nav-text" id="navWork">Work</span></a>
+      <a href="contact.html" class="nav-link active"><i class="fas fa-envelope"></i><span class="nav-text" id="navContact">Contact</span></a>
+    </nav>
+    <div class="sidebar-bottom">
+      <select id="langSelect">
+        <option value="en">English</option>
+        <option value="am">አማርኛ</option>
+        <option value="om">Oromo</option>
+        <option value="so">Somali</option>
+        <option value="ti">ትግርኛ</option>
+      </select>
+      <select id="themeSelect">
+        <option value="dark">Dark</option>
+        <option value="light">Light</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+      </select>
+      <div class="social">
+        <a href="https://t.me/tmha3" target="_blank"><i class="fab fa-telegram"></i></a>
+        <a href="mailto:amehasilase3@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/amehasilase-cloud" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <section class="contact-section">
+      <h1 id="contactTitle">Get In Touch</h1>
+      
+      <div class="contact-container">
+        <!-- Contact Cards -->
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fab fa-telegram"></i></div>
+            <h3 id="telegramTitle">Telegram</h3>
+            <p>@tmha3</p>
+            <a href="https://t.me/tmha3" target="_blank" class="contact-btn" id="msgLink">Message me →</a>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <h3 id="emailTitle">Email</h3>
+            <p>amehasilase3@gmail.com</p>
+            <a href="mailto:amehasilase3@gmail.com" class="contact-btn" id="emailLink">Send email →</a>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <h3 id="locationTitle">Location</h3>
+            <p id="locationText">Wachemo University, Hossana, Ethiopia</p>
+            <div class="gps">📍 7.5565° N, 37.8558° E</div>
+            <a href="https://maps.google.com/?q=Wachemo+University" target="_blank" class="contact-btn" id="mapLink">View on Maps →</a>
+          </div>
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper">
+          <h3 id="formTitle">Send me a message</h3>
+          <p id="formSubtitle">I'll get back to you within 24 hours</p>
+          
+          <form id="contactForm" action="contact.php" method="POST">
+            <div class="form-group">
+              <input type="text" name="name" id="nameInput" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" id="emailInput" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" id="msgInput" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" id="sendBtn">Send Message →</button>
+          </form>
+          <div class="form-note">
+            <small id="formNote"> Your message will be saved to database</small>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

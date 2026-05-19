@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amehasilase Mekuanent | CS Student</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="logo">
+      <img src="profile.jpg" alt="Amehasilase" class="logo-img">
+      <div class="logo-info">
+        <h3>Amehasilase</h3>
+        <p>Janohoy</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="index.html" class="nav-link active"><i class="fas fa-home"></i><span id="navHome">Home</span></a>
+      <a href="about.html" class="nav-link"><i class="fas fa-user"></i><span id="navAbout">About</span></a>
+      <a href="project.html" class="nav-link"><i class="fas fa-briefcase"></i><span id="navWork">Work</span></a>
+      <a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i><span id="navContact">Contact</span></a>
+    </nav>
+    <div class="sidebar-bottom">
+      <select id="langSelect">
+        <option value="en">English</option>
+        <option value="am">አማርኛ</option>
+        <option value="om">Oromic</option>
+        <option value="so">Somali</option>
+        <option value="ti">ትግርኛ</option>
+      </select>
+      <select id="themeSelect">
+        <option value="dark">Dark</option>
+        <option value="light">Light</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+      </select>
+      <div class="social">
+        <a href="https://t.me/tmha3" target="_blank"><i class="fab fa-telegram"></i></a>
+        <a href="mailto:amehasilase3@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/amehasilase-cloud" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="profile-img">
+          <img src="profile.jpg" alt="Amehasilase">
+        </div>
+        <h1>Amehasilase <span>Mekuanent</span></h1>
+        <p class="nickname">"Janohoy"</p>
+        <p class="tagline" id="titleText">Computer Science Student | Network Engineer | Java Developer</p>
+        <p class="desc" id="heroText">3rd Year Computer Science student (2nd Semester) at Wachemo University, Hossana, Ethiopia. Joined university in 2016 E.C.</p>
+        <div class="buttons">
+          <a href="project.html" class="btn-primary" id="viewWorkBtn">View My Work →</a>
+          <a href="contact.html" class="btn-outline" id="contactMeBtn">Contact Me</a>
+        </div>
+        <div class="stats">
+          <div><span>5+</span><label id="projectsStat">Projects</label></div>
+          <div><span>4</span><label id="certificatesStat">Certificates</label></div>
+          <div><span>2</span><label id="branchesStat">Branches</label></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <h2 id="whatIDoTitle">What I Do</h2>
+      <div class="services-grid">
+        <div class="service"><i class="fas fa-network-wired"></i><h3 id="networkingTitle">Networking</h3><p id="networkingDesc">Cisco, Logical Installation, Campus Network Design</p></div>
+        <div class="service"><i class="fab fa-java"></i><h3 id="javaTitle">Java Development</h3><p id="javaDesc">Airline Reservation System, OOP Projects</p></div>
+        <div class="service"><i class="fas fa-database"></i><h3 id="databaseTitle">Database</h3><p id="dbDesc">Student Service Management, SQL Design</p></div>
+        <div class="service"><i class="fas fa-laptop-code"></i><h3 id="programmingTitle">Programming</h3><p id="progDesc">Java, Python, Web Development</p></div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

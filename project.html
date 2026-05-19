@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Amehasilase</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="logo">
+      <img src="profile.jpg" alt="Amehasilase" class="logo-img">
+      <div class="logo-info">
+        <h3>Amehasilase</h3>
+        <p>Janohoy</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="index.html" class="nav-link"><i class="fas fa-home"></i><span id="navHome">Home</span></a>
+      <a href="about.html" class="nav-link"><i class="fas fa-user"></i><span id="navAbout">About</span></a>
+      <a href="project.html" class="nav-link active"><i class="fas fa-briefcase"></i><span id="navWork">Work</span></a>
+      <a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i><span id="navContact">Contact</span></a>
+    </nav>
+    <div class="sidebar-bottom">
+      <select id="langSelect">
+        <option value="en">English</option>
+        <option value="am">አማርኛ</option>
+        <option value="om">Oromo</option>
+        <option value="so">Somali</option>
+        <option value="ti">ትግርኛ</option>
+      </select>
+      <select id="themeSelect">
+        <option value="dark">Dark</option>
+        <option value="light">Light</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+      </select>
+      <div class="social">
+        <a href="https://t.me/tmha3" target="_blank"><i class="fab fa-telegram"></i></a>
+        <a href="mailto:amehasilase3@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/amehasilase-cloud" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <section class="projects-section">
+      <h1 id="projectsTitle">My Work</h1>
+      
+      <div class="certificates-section">
+        <h2 id="certsTitle">🎓 Udacity Certificates</h2>
+        <div class="certificates-grid" id="certificatesGrid"></div>
+      </div>
+      
+      <div class="projects-section-content">
+        <h2 id="projectsSubTitle">💻 My Projects</h2>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all" id="allBtn">All</button>
+          <button class="filter-btn" data-filter="java" id="javaBtn">Java</button>
+          <button class="filter-btn" data-filter="networking" id="networkBtn">Networking</button>
+        </div>
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
